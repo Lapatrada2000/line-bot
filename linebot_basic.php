@@ -16,7 +16,7 @@ foreach ($request_json['events'] as $event)
 			
 			$reply_message = 'ฉันได้รับข้อความ '. $text.' ของคุณแล้ว!'; 
 			
-			$reply_message = mySQL_selectAll('http://s61160071.kantit.com/json_select.php');
+			$reply_message = mySQL_selectAll('http://s61160072.kantit.com/json_select.php');
 			
 			
 		} else {
@@ -64,6 +64,7 @@ function send_reply_message($url, $post_header, $post_body)
 	
 	return $result;
 }
+
 function mySQL_selectAll($url)
 {
 	$result = file_get_contents($url);
