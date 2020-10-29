@@ -73,7 +73,7 @@ function mySQL_selectFTP($url)
 	
 	$result_json = json_decode($result, true); //var_dump($result_json);
 	
-	$data = "ผลลัพธ์:\r\n";
+	$data = "ผลลัพธ์:จ้าF29\r\n";
 		
 	foreach($result_json as $values) {
 		$data .= $values["user_password"] . "\r\n";
