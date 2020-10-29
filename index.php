@@ -1,3 +1,3 @@
 <?php
-    echo "Mr.Kant Charoenjt";
+    echo "lapatrada puttamongkol";
 ?>
